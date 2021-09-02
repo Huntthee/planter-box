@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.planter-box {
+  width: 1000px;
+  height: 500px;
+  border: solid 15px brown;
+  background: url('../images/garden-soil.webp');
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.planter-spot {
+  width: 50%;
+}
+
+.plant-pic {
+  cursor: pointer;
+}
